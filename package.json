@@ -1,0 +1,35 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smdevpod/sample.git"
+  },
+  "author": "Angelika",
+  "bugs": {
+    "url": "https://github.com/smdevpod/sample/issues"
+  },
+  "homepage": "https://github.com/smdevpod/sample#readme",
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "cookie-parser": "^1.4.3",
+    "dateformat": "^2.0.0",
+    "diskusage": "^0.1.5",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "forever": "^0.15.3",
+    "fs": "0.0.2",
+    "ip": "^1.1.5",
+    "js2xmlparser": "^3.0.0",
+    "jshint": "^2.9.3",
+    "request": "^2.72.0",
+    "winston": "^2.2.0",
+    "winston-daily-rotate-file": "^1.2.0"
+  }
+}
